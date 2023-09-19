@@ -1,0 +1,108 @@
+.div1{
+    width: 20%;
+    background-color: rgb(182, 181, 181);
+   
+}
+.div1text{
+    height: 100%;
+    width: 200px;
+    color: white;
+    margin-left:40px;
+    font-size: 35px;
+
+}
+ .div1 a{
+    text-decoration: none;
+    color: rgb(24, 26, 25);
+    font-size: 20px;    
+    display: block;
+}
+h1{
+    font-size:20px;
+    
+}
+.div1 a:hover{
+    background-color: azure;
+    border: solid blueviolet 1px;
+    width:100%;
+}
+
+
+.div-container{
+    display:flex;
+}
+.hdiv{
+    background-color: black;
+    height: 36px;
+    width: 50;
+    margin-left: 20px;
+    
+}
+.head1{
+    background-color: rgb(201, 155, 236);
+    display: flex;
+    padding: 10px;
+    font-size: 23px;
+    margin: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding:10px 4px;
+    
+    
+    
+}
+.menu a:hover{
+    color: aqua;
+}
+
+ a:hover{
+    color: rgb(99, 92, 92);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+     background-color: rgb(173, 179, 173); 
+    padding: 10px;
+    position: relative;
+    margin-right: 100PX;
+    font-size: 16px;
+    width:100%;
+}
+nav ul li a:hover{
+    color: rgb(239, 233, 241);
+    
+}
+nav ul li{
+    width: 100px;
+    position: relative;
+ 
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    left: -20px;
+}
+
+
+ nav ul li:hover ul{
+    display: block;
+} 
+a{
+    color: rgb(48, 40, 40);
+    padding: 10PX;
+}
+nav ul li ul li{
+    padding: 10px 0;
+ 
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+   padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+} 
+
+.menu  {
+  background-color: #c4c6c4;
+}
+.menu a{
+  display: block;
+  padding: 10px;
+
+}
+.menu a:hover{
+  color: #ffffff;
+  border: 1px solid green;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.hder1{
+  float: right;
+  font-size: 16px;
+  padding: 10px;
+  gap: 5px;
+  margin: 5px;
+}
+.hder1 a{
+  border: 1px solid green;
+  margin: 5px;
+  padding: 5PX;
+  color: aliceblue;
+}
+     
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ADMIN USER BOARD<div class="hder1"><a href="#">Gushohoka
+    <a href="#">Ibijyanye na website</a>
+  </div></h1>
+  
+  
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <a href="#">Raporo</a>
+    <a href="#">Abayamunyago ba cooperative</a>
+    <a href="#">ibicuruzwa</a>
+    <a href="#">Abakozi ba cooperative</a>
+    <a href="#">imishara yabo</a>
+    <a href="#">Gutangaaccount</a>
+    <a href="#">Stock yacu</a>
+    
+  </div>
+
+  <div class="col-6">
+    <h1>GIRUBUZIMA COOPERATIVE</h1>
+   
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2></h2>
+      <!-- <nav>
+      <ul>
+      <li>
+        <a href="#"> binjyanye website yacu</a>
+        <ul>
+            <li>
+                <a href="#">Abakiriya</a>
+            </li>
+            <li>
+                <a href="#">supplier</a>
+            </li>
+            <li>
+                <a href="#">Abafatanyabikorwa</a>
+                </li>
+                <a href="#">Home</a>
+            </ul></li></ul> -->
+    </nav>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>cooperative ziza iwacu munkuteza imbere
+   </p></div>
+</body>
+</html>
+
+
